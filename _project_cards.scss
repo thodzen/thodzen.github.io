@@ -1,0 +1,73 @@
+.card-group .card {
+  margin: 30px 10px;
+}
+.card-body h5 {
+  font-size: 24px;
+}
+
+.dewm-card {
+  opacity: 0;
+  animation: floatup1;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+/* ANIMATIONS */
+@keyframes floatup1 {
+  0% {
+    margin-top: 1000px;
+    opacity: 0;
+  }
+  85% {
+    opacity: 1;
+    margin-top: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+
+.noc-card {
+  opacity: 0;
+  animation: floatup2;
+  animation-delay: 0.1s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes floatup2 {
+  0% {
+    opacity: 0;
+    margin-top: 1000px;
+  }
+  85% {
+    opacity: 1;
+    margin-top: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+
+.lol-card {
+  opacity: 0;
+  animation: floatup3;
+  animation-delay: 0.2s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes floatup3 {
+  0% {
+    opacity: 0;
+    margin-top: 1000px;
+  }
+  85% {
+    opacity: 1;
+    margin-top: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
