@@ -6,6 +6,10 @@
   font-size: 24px;
 }
 
+.card-body p {
+  font-size: 14px;
+}
+
 .dewm-card {
   opacity: 0;
   -webkit-animation: floatup1;
