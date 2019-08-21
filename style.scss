@@ -1,11 +1,13 @@
 @import "./project_cards";
 @import "./header";
+@import "./global";
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f3f3f3;
+
+body {
+  @include Body();
 }
-.container-fluid{
-    margin-top: 15px;
-    margin-bottom: 30px;
+
+.header {
+    @include header();
 }
+

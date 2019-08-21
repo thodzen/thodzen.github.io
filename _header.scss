@@ -1,7 +1,27 @@
-.header {
-    margin:40px;
+@mixin header {
+  margin: 40px;
+  opacity: 0;
 
-    h5{
-        font-size: 30px;
-    }
+  animation: header_fade;
+  animation-duration: .5s;
+  animation-delay: .3s;
+  animation-fill-mode: forwards;
+
+  h5 {
+    font-size: 30px;
+  }
+  p{
+      padding: 10px;
+      font-size: 16px;
+  }
+  @keyframes header_fade {
+      0%{
+          opacity: 0;
+      }
+      100%{
+          opacity: 1;
+      }
+  }
 }
+
+
