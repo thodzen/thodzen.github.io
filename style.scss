@@ -1,6 +1,7 @@
 @import "./project_cards";
 @import "./header";
 @import "./global";
+@import "./navbar";
 
 
 body {
@@ -11,3 +12,22 @@ body {
     @include header();
 }
 
+.navbar{
+    @include navbar();
+}
+
+.footer{
+    background-color: #2b2c28;
+    padding: 50px;
+
+    ul{
+        margin-top: 15px;
+        list-style: none;
+    }
+
+    a{
+        padding-right: 100px;
+        padding-left: 100px;
+        color:#fffafb;
+    }
+}

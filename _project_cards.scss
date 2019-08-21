@@ -1,5 +1,6 @@
 .row {
   padding: 20px 70px;
+  margin-bottom: 130px;
 }
 
 .card-group .card {
@@ -17,11 +18,24 @@
 
 .dewm-card {
   padding: 10px;
+  //background-color: #4abdac; 
+  background-color: #dfdce3;
 
   opacity: 0;
   animation: floatup1;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
+
+  h5, p{
+    text-align: center;
+    //color: #f3f3f3;
+    color: black;
+  }
+
+  .btn{
+    background-color: #f7b733;
+    border:none;
+  }
 }
 
 /* ANIMATIONS */
@@ -42,12 +56,25 @@
 
 .noc-card {
   padding: 10px;
+  //background-color: #4abdac; 
+  background-color: #dfdce3;
 
   opacity: 0;
   animation: floatup2;
   animation-delay: 0.1s;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
+
+  h5, p{
+    text-align: center;
+    //color: #f3f3f3;
+    color: black;
+  }
+
+  .btn{
+    background-color: #f7b733;
+    border:none;
+  }
 }
 @keyframes floatup2 {
   0% {
@@ -66,12 +93,25 @@
 
 .lol-card {
   padding: 10px;
+  //background-color: #4abdac; 
+  background-color: #dfdce3;
 
   opacity: 0;
   animation: floatup3;
   animation-delay: 0.2s;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
+
+  h5, p{
+    text-align: center;
+    //color: #f3f3f3;
+    color: black;
+  }
+
+  .btn{
+    background-color: #f7b733;
+    border:none;
+  }
 }
 @keyframes floatup3 {
   0% {
@@ -90,12 +130,25 @@
 
 .dstructures-card {
   padding: 10px;
+  //background-color: #4abdac; 
+  background-color: #dfdce3;
 
   opacity: 0;
   animation: floatup4;
   animation-delay: 0.3s;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
+
+  h5, p{
+    text-align: center;
+    //color: #f3f3f3;
+    color: black;
+  }
+
+  .btn{
+    background-color: #f7b733;
+    border:none;
+  }
 }
 
 @keyframes floatup4 {

@@ -1,5 +1,6 @@
 @import "./header";
 @import "./global";
+@import "./navbar";
 
 .header {
   @include header();
@@ -8,4 +9,8 @@
 body {
   @include Body();
   margin-bottom:10000px;
+}
+
+.navbar{
+    @include navbar();
 }
