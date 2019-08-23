@@ -8,7 +8,7 @@ body {
   @include Body();
 }
 
-.header {
+.jumbotron {
     @include header();
 }
 
@@ -21,8 +21,9 @@ body {
     padding: 50px;
 
     ul{
-        margin-top: 15px;
         list-style: none;
+        list-style-type: none;
+        display: inline;
     }
 
     a{
@@ -31,3 +32,4 @@ body {
         color:#fffafb;
     }
 }
+

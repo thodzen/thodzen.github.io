@@ -17,6 +17,7 @@
 
 .dewm-card {
   padding: 10px;
+  margin-bottom: 70px;
   background-color: #dfdce3;
   opacity: 0;
   -webkit-animation: floatup1;
@@ -45,11 +46,11 @@
   }
   85% {
     opacity: 1;
-    margin-top: -10px;
+    margin-top: -140px;
   }
   100% {
     opacity: 1;
-    margin-top: 0px;
+    margin-top: -130px;
   }
 }
 @keyframes floatup1 {
@@ -59,16 +60,17 @@
   }
   85% {
     opacity: 1;
-    margin-top: -10px;
+    margin-top: -140px;
   }
   100% {
     opacity: 1;
-    margin-top: 0px;
+    margin-top: -130px;
   }
 }
 
 .noc-card {
   padding: 10px;
+  margin-bottom: 70px;
   background-color: #dfdce3;
   opacity: 0;
   -webkit-animation: floatup2;
@@ -98,11 +100,11 @@
   }
   85% {
     opacity: 1;
-    margin-top: -10px;
+    margin-top: -140px;
   }
   100% {
     opacity: 1;
-    margin-top: 0px;
+    margin-top: -130px;
   }
 }
 
@@ -113,16 +115,17 @@
   }
   85% {
     opacity: 1;
-    margin-top: -10px;
+    margin-top: -140px;
   }
   100% {
     opacity: 1;
-    margin-top: 0px;
+    margin-top: -130px;
   }
 }
 
 .lol-card {
   padding: 10px;
+  margin-bottom: 70px;
   background-color: #dfdce3;
   opacity: 0;
   -webkit-animation: floatup3;
@@ -152,11 +155,11 @@
   }
   85% {
     opacity: 1;
-    margin-top: -10px;
+    margin-top: -140px;
   }
   100% {
     opacity: 1;
-    margin-top: 0px;
+    margin-top: -130px;
   }
 }
 
@@ -167,16 +170,17 @@
   }
   85% {
     opacity: 1;
-    margin-top: -10px;
+    margin-top: -140px;
   }
   100% {
     opacity: 1;
-    margin-top: 0px;
+    margin-top: -130px;
   }
 }
 
 .dstructures-card {
   padding: 10px;
+  margin-bottom: 70px;
   background-color: #dfdce3;
   opacity: 0;
   -webkit-animation: floatup4;
@@ -206,11 +210,11 @@
   }
   85% {
     opacity: 1;
-    margin-top: -10px;
+    margin-top: -140px;
   }
   100% {
     opacity: 1;
-    margin-top: 0px;
+    margin-top: -130px;
   }
 }
 
@@ -221,11 +225,11 @@
   }
   85% {
     opacity: 1;
-    margin-top: -10px;
+    margin-top: -140px;
   }
   100% {
     opacity: 1;
-    margin-top: 0px;
+    margin-top: -130px;
   }
 }
 
@@ -235,29 +239,36 @@
   margin-bottom: 30px;
 }
 */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #4abdac;
+.container-fluid {
+  margin: 0;
+  padding: 0;
 }
 
-.header {
-  margin: 40px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.jumbotron {
+  padding-bottom: 150px;
   opacity: 0;
+  background-color: #4abdac;
   -webkit-animation: header_fade;
           animation: header_fade;
-  -webkit-animation-duration: .5s;
-          animation-duration: .5s;
-  -webkit-animation-delay: .3s;
-          animation-delay: .3s;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 
-.header h5 {
-  font-size: 30px;
+.jumbotron h5 {
+  color: white;
+  font-size: 50px;
 }
 
-.header p {
+.jumbotron p {
   padding: 10px;
   font-size: 16px;
 }
@@ -290,8 +301,9 @@ body {
 }
 
 .footer ul {
-  margin-top: 15px;
   list-style: none;
+  list-style-type: none;
+  display: inline;
 }
 
 .footer a {

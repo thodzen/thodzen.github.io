@@ -4,21 +4,28 @@
   margin-bottom: 30px;
 }
 */
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
-  margin: 40px;
+  padding-bottom: 150px;
   opacity: 0;
+  background-color: #4abdac;
   -webkit-animation: header_fade;
           animation: header_fade;
-  -webkit-animation-duration: .5s;
-          animation-duration: .5s;
-  -webkit-animation-delay: .3s;
-          animation-delay: .3s;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 
 .header h5 {
-  font-size: 30px;
+  color: white;
+  font-size: 50px;
 }
 
 .header p {
@@ -46,7 +53,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #4abdac;
+  overflow-x: hidden;
   margin-bottom: 10000px;
 }
 
