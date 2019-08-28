@@ -33,9 +33,43 @@
     color: black;
   }
 
-  .btn{
+  .btn {
+    border-radius: 4px;
     background-color: #f7b733;
-    border:none;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    width: 138px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
   }
 }
 
@@ -73,11 +107,46 @@
     color: black;
   }
 
-  .btn{
+  .btn {
+    border-radius: 4px;
     background-color: #f7b733;
-    border:none;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    width: 138px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
   }
 }
+
 @keyframes floatup2 {
   0% {
     opacity: 0;
@@ -111,11 +180,46 @@
     color: black;
   }
 
-  .btn{
+  .btn {
+    border-radius: 4px;
     background-color: #f7b733;
-    border:none;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    width: 138px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
   }
 }
+
 @keyframes floatup3 {
   0% {
     opacity: 0;
@@ -149,11 +253,46 @@
     color: black;
   }
 
-  .btn{
+  .btn {
+    border-radius: 4px;
     background-color: #f7b733;
-    border:none;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    width: 138px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
   }
 }
+
 
 @keyframes floatup4 {
   0% {

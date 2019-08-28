@@ -1,20 +1,26 @@
 @mixin header {
   padding-bottom: 150px;
-  opacity: 0;
-  background-color: #4abdac; 
-
-  animation: header_fade;
-  animation-duration: 0.5s;
-  animation-delay: 0.3s;
-  animation-fill-mode: forwards;
+  background-color: #4abdac;
 
   h5 {
     color: white;
     font-size: 50px;
+
+    opacity: 0;
+    animation: header_fade;
+    animation-duration: 0.5s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
   }
   p {
     padding: 10px;
     font-size: 16px;
+
+    opacity: 0;
+    animation: header_fade;
+    animation-duration: 0.5s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
   }
   @keyframes header_fade {
     0% {
