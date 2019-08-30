@@ -16,14 +16,14 @@
   }
 }
 
-.inner{
+.inner {
   overflow: hidden;
 
-  img{
-    transition: all .5s ease;
+  img {
+    transition: all 0.5s ease;
   }
 
-  :hover img{
+  :hover img {
     transform: scale(1.2);
   }
 }
@@ -31,7 +31,7 @@
 .dewm-card {
   padding: 10px;
   margin-bottom: 70px;
-  //background-color: #4abdac; 
+  //background-color: #4abdac;
   background-color: #dfdce3;
 
   opacity: 0;
@@ -39,7 +39,8 @@
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
 
-  h5, p{
+  h5,
+  p {
     text-align: center;
     //color: #f3f3f3;
     color: black;
@@ -49,7 +50,7 @@
     border-radius: 4px;
     background-color: #f7b733;
     border: none;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
     font-size: 16px;
     width: 138px;
@@ -58,33 +59,56 @@
     cursor: pointer;
     margin: 5px;
   }
-  
+
   .btn span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
-  
+
   .btn span:after {
-    content: '\00bb';
+    content: "\00bb";
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.5s;
   }
-  
+
   .btn:hover span {
     padding-right: 25px;
   }
-  
+
   .btn:hover span:after {
     opacity: 1;
     right: 0;
   }
+
+  .contribution-btn {
+    padding: 0;
+    border: none;
+    background: none;
+    margin-top: -20px;
+  }
 }
 
+.contribution-body{
+  background: none;
+  margin-bottom: 15px;
+  padding:10px;
+  margin-top: -15px;
+}
+
+#collapse-dewm ul{
+  padding: 0;
+  margin: 0;
+  background: none;
+  li{
+    margin-left: 1em;
+    background: none;
+  }
+}
 /* ANIMATIONS */
 @keyframes floatup1 {
   0% {
@@ -104,7 +128,7 @@
 .noc-card {
   padding: 10px;
   margin-bottom: 70px;
-  //background-color: #4abdac; 
+  //background-color: #4abdac;
   background-color: #dfdce3;
 
   opacity: 0;
@@ -113,7 +137,8 @@
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
 
-  h5, p{
+  h5,
+  p {
     text-align: center;
     //color: #f3f3f3;
     color: black;
@@ -123,7 +148,7 @@
     border-radius: 4px;
     background-color: #f7b733;
     border: none;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
     font-size: 16px;
     width: 138px;
@@ -132,27 +157,27 @@
     cursor: pointer;
     margin: 5px;
   }
-  
+
   .btn span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
-  
+
   .btn span:after {
-    content: '\00bb';
+    content: "\00bb";
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.5s;
   }
-  
+
   .btn:hover span {
     padding-right: 25px;
   }
-  
+
   .btn:hover span:after {
     opacity: 1;
     right: 0;
@@ -177,7 +202,7 @@
 .lol-card {
   padding: 10px;
   margin-bottom: 70px;
-  //background-color: #4abdac; 
+  //background-color: #4abdac;
   background-color: #dfdce3;
 
   opacity: 0;
@@ -186,7 +211,8 @@
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
 
-  h5, p{
+  h5,
+  p {
     text-align: center;
     //color: #f3f3f3;
     color: black;
@@ -196,7 +222,7 @@
     border-radius: 4px;
     background-color: #f7b733;
     border: none;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
     font-size: 16px;
     width: 138px;
@@ -205,27 +231,27 @@
     cursor: pointer;
     margin: 5px;
   }
-  
+
   .btn span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
-  
+
   .btn span:after {
-    content: '\00bb';
+    content: "\00bb";
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.5s;
   }
-  
+
   .btn:hover span {
     padding-right: 25px;
   }
-  
+
   .btn:hover span:after {
     opacity: 1;
     right: 0;
@@ -250,7 +276,7 @@
 .dstructures-card {
   padding: 10px;
   margin-bottom: 70px;
-  //background-color: #4abdac; 
+  //background-color: #4abdac;
   background-color: #dfdce3;
 
   opacity: 0;
@@ -259,7 +285,8 @@
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
 
-  h5, p{
+  h5,
+  p {
     text-align: center;
     //color: #f3f3f3;
     color: black;
@@ -269,7 +296,7 @@
     border-radius: 4px;
     background-color: #f7b733;
     border: none;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
     font-size: 16px;
     width: 138px;
@@ -278,33 +305,32 @@
     cursor: pointer;
     margin: 5px;
   }
-  
+
   .btn span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
-  
+
   .btn span:after {
-    content: '\00bb';
+    content: "\00bb";
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.5s;
   }
-  
+
   .btn:hover span {
     padding-right: 25px;
   }
-  
+
   .btn:hover span:after {
     opacity: 1;
     right: 0;
   }
 }
-
 
 @keyframes floatup4 {
   0% {
