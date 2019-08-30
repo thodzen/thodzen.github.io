@@ -42,6 +42,10 @@
           animation-fill-mode: forwards;
 }
 
+.header img {
+  width: 100px;
+}
+
 @-webkit-keyframes header_fade {
   0% {
     opacity: 0;

@@ -16,6 +16,18 @@
   }
 }
 
+.inner{
+  overflow: hidden;
+
+  img{
+    transition: all .5s ease;
+  }
+
+  :hover img{
+    transform: scale(1.2);
+  }
+}
+
 .dewm-card {
   padding: 10px;
   margin-bottom: 70px;

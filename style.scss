@@ -2,6 +2,7 @@
 @import "./header";
 @import "./global";
 @import "./navbar";
+@import "./contact";
 
 
 body {
@@ -17,19 +18,6 @@ body {
 }
 
 .footer{
-    background-color: #2b2c28;
-    padding: 50px;
-
-    ul{
-        list-style: none;
-        list-style-type: none;
-        display: inline;
-    }
-
-    a{
-        padding-right: 100px;
-        padding-left: 100px;
-        color:#fffafb;
-    }
+    @include Contact();
 }
 
