@@ -1,4 +1,8 @@
 @mixin navbar() {
-    //background-color: #4abdac; 
-    background-color: #dfdce3;
+  //background-color: #4abdac;
+  background-color: #dfdce3;
+
+  .navbar-brand {
+    font-size: 20px;
+  }
 }

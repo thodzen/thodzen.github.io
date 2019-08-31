@@ -9,6 +9,7 @@
     />
 
     <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">  <!--FONT-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -21,9 +22,9 @@
   </head>
   <body>
     <!--!NAV BAR-->
-    <nav class="navbar navbar-expand-lg navbar-light"> <!---navbar-dark bg-dark-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top"> <!---navbar-dark bg-dark-->
       <div class="container">
-      <a class="navbar-brand" href="#">Portfolio</a>
+      <a class="navbar-brand " href="#">Tyler Hodzen</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,13 +32,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="./index.html">Portfolio <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#projects">Projects <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./resume.html">Resume</a>
+              <a class="nav-link disabled" href="./resume.html">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -59,6 +60,7 @@
       </div>
 
       <!--!PROJECT CARDS-->
+      <div id="projects">
       <div class="row">
         <!--? DEWM-->
         <div class="col-md-3 d-flex align-items-stretch">
@@ -71,7 +73,7 @@
             <div class="card-body text-center">
               <h5 class="card-title">DEWM</h5>
               <p class="card-text">
-                  Dewm is a 2D <em>Doom</em>-inspired "Platform" game made with the Unity Game Engine using C#. This game was created in a single semester with the Aurora Game Development Club.
+                  Dewm is a 2D <em>Doom</em>-inspired "Platform" game made with the Unity Game Engine and using the C# programming language. This game was created in a single semester.
               </p>
               <p>
                   <button class="btn btn-link contribution-btn text-muted" type="button" data-toggle="collapse" data-target="#collapse-dewm" aria-expanded="false" aria-controls="collapseExample">
@@ -121,7 +123,7 @@
             <div class="card-body text-center">
               <h5 class="card-title">Nocturnal Forest</h5>
               <p class="card-text">
-                  Nocturnal Forest is a 2D "Metroidvania" game made with the Unity Game Engine using C#. This game was created in a single semester with the Aurora Game Development Club.
+                  Nocturnal Forest is a 2D "Metroidvania" game made with the Unity Game Engine and using the C# programming language. This game was created in a single semester.
               </p>
               <a href="https://thodzen.itch.io/nocturnal-forest" target="_blank"
                 ><button type="button" class="btn btn-primary"><span>
@@ -148,7 +150,7 @@
             <div class="card-body text-center">
               <h5 class="card-title">Labor of Love</h5>
               <p class="card-text">
-                  Labor of Love is a top-down gathering game made with the Unity Game Engine using C#. This game was created during Global Game Jam 2019.
+                  Labor of Love is a top-down gathering game made with the Unity Game Engine and using the C# programming language. This game was created during Global Game Jam 2019.
               </p>
               <a href="https://thodzen.itch.io/labor-of-love" target="_blank"
                 ><button type="button" class="btn btn-primary"><span>
@@ -175,7 +177,7 @@
             <div class="card-body text-center">
               <h5 class="card-title">Data Structures Game</h5>
               <p class="card-text"></p>
-                  This Data Structures game was made with the Unity Game Engine using C#. This game was created as a project to teach others about data structures (specifically linked-lists and stacks) in an interactive way.
+                  This Data Structures game was made with the Unity Game Engine and using the C# programming language. This game was created as a project to teach others about linked-lists and stacks in an interactive way.
               </p>
               <a href="https://thodzen.itch.io/stack-linkedlist" target="_blank"
                 ><button type="button" class="btn btn-primary"><span>
@@ -189,9 +191,11 @@
           </div>
         </div>
       </div>
+      </div>
 
       <!--! FOOTER-->
       <div class="container-fluid">
+        <div id="contact">
       <div class="footer text-center">
         <ul>
           <li>
@@ -200,6 +204,7 @@
             <a href="https://www.linkedin.com/in/tyler-hodzen-95046b180/" target="_blank">LinkedIn</a>
           </li>
         </ul>
+      </div>
       </div>
       </div>
 
@@ -220,5 +225,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="SmoothScroll.js"></script>
   </body>
 </html>

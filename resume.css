@@ -1,9 +1,7 @@
-/*
-@mixin Container() {
-  margin-top: 15px;
-  margin-bottom: 30px;
+html {
+  scroll-behavior: smooth;
 }
-*/
+
 .container-fluid {
   margin: 0;
   padding: 0;
@@ -11,6 +9,7 @@
 
 .header {
   padding-bottom: 150px;
+  padding-top: 100px;
   background-color: #4abdac;
 }
 
@@ -65,12 +64,16 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
   margin-bottom: 10000px;
 }
 
 .navbar {
   background-color: #dfdce3;
+}
+
+.navbar .navbar-brand {
+  font-size: 20px;
 }
 /*# sourceMappingURL=resume.css.map */
