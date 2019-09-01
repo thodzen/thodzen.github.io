@@ -22,11 +22,15 @@
     animation-duration: 0.5s;
     animation-delay: 0.3s;
     animation-fill-mode: forwards;
+    a{
+      color: white;
+    }
   }
 
   img{
     width: 100px;
   }
+
   @keyframes header_fade {
     0% {
       opacity: 0;

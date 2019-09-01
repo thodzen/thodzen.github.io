@@ -473,6 +473,10 @@ body {
           animation-fill-mode: forwards;
 }
 
+.jumbotron p a {
+  color: white;
+}
+
 .jumbotron img {
   width: 100px;
 }
@@ -501,6 +505,11 @@ body {
 
 .navbar .navbar-brand {
   font-size: 20px;
+}
+
+.navbar img {
+  width: 180px;
+  padding-right: 120px;
 }
 
 .footer {

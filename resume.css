@@ -41,6 +41,10 @@ html {
           animation-fill-mode: forwards;
 }
 
+.header p a {
+  color: white;
+}
+
 .header img {
   width: 100px;
 }
@@ -75,5 +79,10 @@ body {
 
 .navbar .navbar-brand {
   font-size: 20px;
+}
+
+.navbar img {
+  width: 180px;
+  padding-right: 120px;
 }
 /*# sourceMappingURL=resume.css.map */
