@@ -16,6 +16,14 @@
   }
 }
 
+.contribution-body {
+  background: none;
+  margin-bottom: 15px;
+  padding: 10px;
+  margin-top: -15px;
+  text-align: left;
+}
+
 .inner {
   overflow: hidden;
 
@@ -91,25 +99,17 @@
     background: none;
     margin-top: -20px;
   }
-}
-
-.contribution-body{
-  background: none;
-  margin-bottom: 15px;
-  padding:10px;
-  margin-top: -15px;
-  text-align: left;
-}
-
-#collapse-dewm ul{
-  padding: 0;
-  margin: 0;
-  background: none;
-  li{
-    margin-left: 1em;
-    background: none;
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+  hr {
+    background-color: #4abdac;
   }
 }
+
 /* ANIMATIONS */
 @keyframes floatup1 {
   0% {
@@ -182,6 +182,22 @@
   .btn:hover span:after {
     opacity: 1;
     right: 0;
+  }
+
+  .contribution-btn {
+    padding: 0;
+    border: none;
+    background: none;
+    margin-top: -20px;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+  hr {
+    background-color: #4abdac;
   }
 }
 
@@ -257,6 +273,22 @@
     opacity: 1;
     right: 0;
   }
+
+  .contribution-btn {
+    padding: 0;
+    border: none;
+    background: none;
+    margin-top: -20px;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+  hr {
+    background-color: #4abdac;
+  }
 }
 
 @keyframes floatup3 {
@@ -330,6 +362,22 @@
   .btn:hover span:after {
     opacity: 1;
     right: 0;
+  }
+
+  .contribution-btn {
+    padding: 0;
+    border: none;
+    background: none;
+    margin-top: -20px;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+  hr {
+    background-color: #4abdac;
   }
 }
 

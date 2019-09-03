@@ -15,6 +15,14 @@
   font-size: 14px;
 }
 
+.contribution-body {
+  background: none;
+  margin-bottom: 15px;
+  padding: 10px;
+  margin-top: -15px;
+  text-align: left;
+}
+
 .inner {
   overflow: hidden;
 }
@@ -97,23 +105,16 @@
   margin-top: -20px;
 }
 
-.contribution-body {
-  background: none;
-  margin-bottom: 15px;
-  padding: 10px;
-  margin-top: -15px;
-  text-align: left;
-}
-
-#collapse-dewm ul {
+.dewm-card ul {
   padding: 0;
-  margin: 0;
-  background: none;
 }
 
-#collapse-dewm ul li {
-  margin-left: 1em;
-  background: none;
+.dewm-card li {
+  list-style-type: none;
+}
+
+.dewm-card hr {
+  background-color: #4abdac;
 }
 
 /* ANIMATIONS */
@@ -209,6 +210,25 @@
   right: 0;
 }
 
+.noc-card .contribution-btn {
+  padding: 0;
+  border: none;
+  background: none;
+  margin-top: -20px;
+}
+
+.noc-card ul {
+  padding: 0;
+}
+
+.noc-card li {
+  list-style-type: none;
+}
+
+.noc-card hr {
+  background-color: #4abdac;
+}
+
 @-webkit-keyframes floatup2 {
   0% {
     opacity: 0;
@@ -302,6 +322,25 @@
   right: 0;
 }
 
+.lol-card .contribution-btn {
+  padding: 0;
+  border: none;
+  background: none;
+  margin-top: -20px;
+}
+
+.lol-card ul {
+  padding: 0;
+}
+
+.lol-card li {
+  list-style-type: none;
+}
+
+.lol-card hr {
+  background-color: #4abdac;
+}
+
 @-webkit-keyframes floatup3 {
   0% {
     opacity: 0;
@@ -393,6 +432,25 @@
 .dstructures-card .btn:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+.dstructures-card .contribution-btn {
+  padding: 0;
+  border: none;
+  background: none;
+  margin-top: -20px;
+}
+
+.dstructures-card ul {
+  padding: 0;
+}
+
+.dstructures-card li {
+  list-style-type: none;
+}
+
+.dstructures-card hr {
+  background-color: #4abdac;
 }
 
 @-webkit-keyframes floatup4 {
