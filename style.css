@@ -17,6 +17,9 @@
 
 .contribution-body {
   background: none;
+  border-color: #4abdac;
+  border-width: 2px;
+  border-radius: 5%;
   margin-bottom: 15px;
   padding: 10px;
   margin-top: -15px;
@@ -147,7 +150,7 @@
   }
 }
 
-.noc-card {
+.dstructures-card {
   padding: 10px;
   margin-bottom: 70px;
   background-color: #dfdce3;
@@ -162,13 +165,13 @@
           animation-fill-mode: forwards;
 }
 
-.noc-card h5,
-.noc-card p {
+.dstructures-card h5,
+.dstructures-card p {
   text-align: center;
   color: black;
 }
 
-.noc-card .btn {
+.dstructures-card .btn {
   border-radius: 4px;
   background-color: #f7b733;
   border: none;
@@ -183,7 +186,7 @@
   margin: 5px;
 }
 
-.noc-card .btn span {
+.dstructures-card .btn span {
   cursor: pointer;
   display: inline-block;
   position: relative;
@@ -191,7 +194,7 @@
   transition: 0.5s;
 }
 
-.noc-card .btn span:after {
+.dstructures-card .btn span:after {
   content: "\00bb";
   position: absolute;
   opacity: 0;
@@ -201,38 +204,38 @@
   transition: 0.5s;
 }
 
-.noc-card .btn:hover span {
+.dstructures-card .btn:hover span {
   padding-right: 25px;
 }
 
-.noc-card .btn:hover span:after {
+.dstructures-card .btn:hover span:after {
   opacity: 1;
   right: 0;
 }
 
-.noc-card .contribution-btn {
+.dstructures-card .contribution-btn {
   padding: 0;
   border: none;
   background: none;
   margin-top: -20px;
 }
 
-.noc-card ul {
+.dstructures-card ul {
   padding: 0;
 }
 
-.noc-card li {
+.dstructures-card li {
   list-style-type: none;
 }
 
-.noc-card hr {
+.dstructures-card hr {
   background-color: #4abdac;
 }
 
-@-webkit-keyframes floatup2 {
+@-webkit-keyframes floatup4 {
   0% {
-    opacity: 0;
     margin-top: 1000px;
+    opacity: 0;
   }
   85% {
     opacity: 1;
@@ -244,10 +247,10 @@
   }
 }
 
-@keyframes floatup2 {
+@keyframes floatup4 {
   0% {
-    opacity: 0;
     margin-top: 1000px;
+    opacity: 0;
   }
   85% {
     opacity: 1;
@@ -371,7 +374,7 @@
   }
 }
 
-.dstructures-card {
+.noc-card {
   padding: 10px;
   margin-bottom: 70px;
   background-color: #dfdce3;
@@ -386,13 +389,13 @@
           animation-fill-mode: forwards;
 }
 
-.dstructures-card h5,
-.dstructures-card p {
+.noc-card h5,
+.noc-card p {
   text-align: center;
   color: black;
 }
 
-.dstructures-card .btn {
+.noc-card .btn {
   border-radius: 4px;
   background-color: #f7b733;
   border: none;
@@ -407,7 +410,7 @@
   margin: 5px;
 }
 
-.dstructures-card .btn span {
+.noc-card .btn span {
   cursor: pointer;
   display: inline-block;
   position: relative;
@@ -415,7 +418,7 @@
   transition: 0.5s;
 }
 
-.dstructures-card .btn span:after {
+.noc-card .btn span:after {
   content: "\00bb";
   position: absolute;
   opacity: 0;
@@ -425,38 +428,38 @@
   transition: 0.5s;
 }
 
-.dstructures-card .btn:hover span {
+.noc-card .btn:hover span {
   padding-right: 25px;
 }
 
-.dstructures-card .btn:hover span:after {
+.noc-card .btn:hover span:after {
   opacity: 1;
   right: 0;
 }
 
-.dstructures-card .contribution-btn {
+.noc-card .contribution-btn {
   padding: 0;
   border: none;
   background: none;
   margin-top: -20px;
 }
 
-.dstructures-card ul {
+.noc-card ul {
   padding: 0;
 }
 
-.dstructures-card li {
+.noc-card li {
   list-style-type: none;
 }
 
-.dstructures-card hr {
+.noc-card hr {
   background-color: #4abdac;
 }
 
-@-webkit-keyframes floatup4 {
+@-webkit-keyframes floatup2 {
   0% {
-    margin-top: 1000px;
     opacity: 0;
+    margin-top: 1000px;
   }
   85% {
     opacity: 1;
@@ -468,10 +471,10 @@
   }
 }
 
-@keyframes floatup4 {
+@keyframes floatup2 {
   0% {
-    margin-top: 1000px;
     opacity: 0;
+    margin-top: 1000px;
   }
   85% {
     opacity: 1;

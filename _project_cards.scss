@@ -18,6 +18,9 @@
 
 .contribution-body {
   background: none;
+  border-color: #4abdac;
+  border-width: 2px;
+  border-radius: 5%;
   margin-bottom: 15px;
   padding: 10px;
   margin-top: -15px;
@@ -36,6 +39,7 @@
   }
 }
 
+// ? DEWM
 .dewm-card {
   padding: 10px;
   margin-bottom: 70px;
@@ -126,7 +130,8 @@
   }
 }
 
-.noc-card {
+//? DATA
+.dstructures-card {
   padding: 10px;
   margin-bottom: 70px;
   //background-color: #4abdac;
@@ -201,10 +206,10 @@
   }
 }
 
-@keyframes floatup2 {
+@keyframes floatup4 {
   0% {
-    opacity: 0;
     margin-top: 1000px;
+    opacity: 0;
   }
   85% {
     opacity: 1;
@@ -216,6 +221,7 @@
   }
 }
 
+//? LOL
 .lol-card {
   padding: 10px;
   margin-bottom: 70px;
@@ -306,7 +312,8 @@
   }
 }
 
-.dstructures-card {
+//? NOC
+.noc-card {
   padding: 10px;
   margin-bottom: 70px;
   //background-color: #4abdac;
@@ -381,10 +388,10 @@
   }
 }
 
-@keyframes floatup4 {
+@keyframes floatup2 {
   0% {
-    margin-top: 1000px;
     opacity: 0;
+    margin-top: 1000px;
   }
   85% {
     opacity: 1;
