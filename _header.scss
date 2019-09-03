@@ -1,6 +1,6 @@
 @mixin header {
-  padding-bottom: 150px;
-  padding-top: 100px;
+  padding-bottom: 200px;
+  padding-top: 150px;
   background-color: #4abdac;
 
   h5 {
@@ -22,21 +22,65 @@
     animation-duration: 0.5s;
     animation-delay: 0.3s;
     animation-fill-mode: forwards;
-    a{
+    a {
       color: white;
     }
   }
+  .btn {
+    border-radius: 4px;
+    background-color: #f7b733;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    width: 130px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
 
-  img{
-    width: 100px;
+    opacity: 0;
+    animation: header_fade;
+    animation-duration: 0.5s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
   }
 
-  @keyframes header_fade {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  .btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .btn span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .btn:hover span {
+    padding-right: 25px;
+  }
+
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+}
+
+img {
+  width: 100px;
+}
+
+@keyframes header_fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
